@@ -1,0 +1,66 @@
+.splash {
+  height: 100%;
+
+  background: linear-gradient(
+    to bottom,
+    var(--color-primary-text) 84%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+.splash-phrase {
+  position: absolute;
+  top: 160px;
+  left: 8%;
+
+  font-weight: bold;
+  font-size: 68pt;
+  width: 300px;
+}
+
+.splash p {
+  margin: 0;
+}
+
+.emphasized-word {
+  color: var(--color-accent-2);
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 128pt;
+}
+
+.splash img {
+  position: absolute;
+  border-radius: 48px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.5);
+  right: 5%;
+  max-width: 1000px;
+  width: 80%;
+}
+
+.catalog-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24pt;
+  width: 100%;
+
+  margin: 16px;
+  margin-top: 72px;
+  padding: 16px;
+
+  border: var(--color-accent-2) 4px solid;
+  border-radius: 32px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.5);
+
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.catalog-link:hover {
+  background-color: var(--color-accent-1);
+  color: var(--color-background);
+}
