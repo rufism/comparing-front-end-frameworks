@@ -7,7 +7,6 @@ export const LandingPage = () => {
     <Page>
       <NavigationBar />
 
-      {/* Splash content  */}
       <div className="splash">
         <img
           src="/20250516_1202_Woman's Office Coffee Break_simple_compose_01jvd0qezwfyb9m22y02x5x22t.png"

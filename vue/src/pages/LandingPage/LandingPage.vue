@@ -1,3 +1,29 @@
+<script setup>
+import Page from "@/components/Page.vue";
+import NavigationBar from "@/components/NavigationBar.vue";
+</script>
+
+<template>
+  <Page>
+    <NavigationBar />
+    <div class="splash">
+      <img
+        src="/20250516_1202_Womans Office Coffee Break_simple_compose_01jvd0qezwfyb9m22y02x5x22t.png"
+        alt="woman enjoying coffee at desk"
+      />
+      <div class="splash-phrase">
+        <p>Because your identity needs</p>
+        <p class="emphasized-word">flavour</p>
+
+        <div class="catalog-link">
+          <a>Find your flavour</a>
+        </div>
+      </div>
+    </div>
+  </Page>
+</template>
+
+<style scoped>
 .splash {
   height: 100%;
 
@@ -103,3 +129,4 @@
     height: 80%;
   }
 }
+</style>
